@@ -6,7 +6,7 @@ const resultPanel = document.querySelector('#resultPanel');
 const emptyState = document.querySelector('#emptyState');
 const predictionState = document.querySelector('#predictionState');
 const API_KEY = 'staywise-api-url';
-const DEFAULT_API = 'http://127.0.0.1:8000';
+const DEFAULT_API = 'https://nyc-airbnb-room-type-predictor-2rhn.onrender.com';
 
 function apiBase() { return (localStorage.getItem(API_KEY) || DEFAULT_API).replace(/\/+$/, ''); }
 function setValue(name, value) { form.elements[name].value = value; }
